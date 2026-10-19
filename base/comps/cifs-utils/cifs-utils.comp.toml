@@ -1,0 +1,4 @@
+# Pin the Fedora Rawhide 7.9 update; the Fedora 43 snapshot still ships 7.7.
+# Source: https://src.fedoraproject.org/rpms/cifs-utils/c/76da05abd6014915ff47c8fea348cfa96c5dcd88
+[components.cifs-utils]
+spec = { type = "upstream", upstream-distro = { name = "fedora", version = "rawhide" }, upstream-commit = "76da05abd6014915ff47c8fea348cfa96c5dcd88" }
